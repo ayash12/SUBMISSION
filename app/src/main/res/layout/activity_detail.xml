@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail">
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="20dp"
+        android:background="@color/colorPrimary"
+        >
+        <ImageView
+            android:id="@+id/imageceo"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NAMA CEO :"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:paddingLeft="8dp"
+                />
+            <TextView
+                android:id="@+id/ceonames"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Samsudin"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:paddingTop="5dp"
+                android:paddingLeft="8dp"
+                />
+
+            <TextView
+                android:paddingTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CEO INSTANSI :"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:paddingLeft="8dp"
+                />
+
+            <TextView
+                android:id="@+id/ceodetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Samsudin"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:paddingTop="5dp"
+                android:paddingLeft="8dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+
+        android:paddingTop="8dp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROFIL SINGKAT"
+        />
+
+        <TextView
+            android:id="@+id/ceocekdetail"
+            android:paddingTop="8dp"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROFIL SINGKAT"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
